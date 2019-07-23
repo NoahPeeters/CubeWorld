@@ -96,8 +96,8 @@ class App:
         if not (
                     self.e.block_exists(new_block_x + 0.5, self.block_y, self.block_z) or self.e.block_exists(
                         new_block_x - 0.5,
-                        self.block_y,
-                        self.block_z)):
+                    self.block_y,
+                    self.block_z)):
             self.block_x = new_block_x
         else:
             self.block_x = round(new_block_x)
